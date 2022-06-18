@@ -1,0 +1,146 @@
+@import "vars";
+
+#resumen-ppal {
+  width: 100%;
+  max-width: 350px;
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#fecha-ppal {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border-style: none;
+  align-self: center;
+  justify-self: flex-end;
+  margin-top: 6rem;
+}
+
+#fecha-ppal::placeholder {
+  font-family: var(--roboto);
+  color: white;
+  font-size: 1.6rem;
+  font-style: italic;
+}
+
+#container-info-ppal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 95%;
+  max-width: 350px;
+  border-radius: 10px;
+  padding: 1rem 0;
+}
+
+.container-info-ppal-titulo {
+  color: black;
+  font-weight: 700;
+  font-family: var(--fredoka);
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-top: 0;
+}
+
+#container-info-ppal input:read-only {
+  background-color: var(--fill-color);
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  border-style: none;
+  height: 30px;
+  padding: 1rem;
+}
+
+.registrar {
+  margin-top: -5rem;
+}
+
+.reg_cont_sec {
+  background-color: rgba(140, 211, 68, 0.5);
+  margin-bottom: 2rem;
+}
+
+.fichas_cont_sec {
+  background-color: rgba(255, 108, 0, 0.5);
+}
+
+.reg_cont_sec,
+.fichas_cont_sec {
+  width: 350px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem 0;
+  margin-top: 1rem;
+}
+
+.reg_cont_sec h2,
+.fichas_cont_sec h2 {
+  justify-self: center;
+  font-family: var(--fredoka);
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-top: 4rem;
+}
+
+.ingreso,
+.corte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.corte h3,
+.ingreso h3 {
+  color: white;
+  font-family: var(--fredoka);
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+
+.corte img {
+  align-self: center;
+  justify-self: center;
+}
+
+.boton_circular {
+  -webkit-appearance: none;
+  border-style: none;
+  background-color: transparent;
+}
+
+.boton_circular img {
+  width: 95px;
+  height: 95px;
+}
+
+#boton_cerrar {
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 6px;
+  background-color: var(--yellow-light);
+  border-color: var(--yellow-medium);
+  box-shadow: #b84b1f 3px 3px;
+  color: var(--yellow-dark);
+  font-family: var(--fredoka);
+  font-weight: 700;
+  font-size: 1.7rem;
+  -webkit-appearance: none;
+  margin-top: 4rem;
+  margin-bottom: 11rem;
+}
+
+a {
+  -webkit-appearance: none;
+  color: #8a3412;
+}

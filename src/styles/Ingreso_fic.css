@@ -1,0 +1,23 @@
+@import "vars";
+
+.ingreso_fichas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input[type="text"] {
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #7db446;
+  border-width: 3px;
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.ingreso_fichas h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
