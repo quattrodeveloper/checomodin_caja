@@ -9,7 +9,7 @@ const Cierre = () => {
     <>
       <Header title="Cierre" />
       <Montos />
-
+        <h1>Elemplo:</h1>
       <div className="totales_align">
         <div className="totales">
           <h2> Total Gs.</h2>
