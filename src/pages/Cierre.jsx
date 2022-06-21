@@ -12,7 +12,7 @@ const Cierre = () => {
 
       <div className="totales_align">
         <div className="totales">
-          <h2>Total Gs.</h2>
+          <h2> Total Gs.</h2>
           <input type="number" name="" id="cie-total-gs" disabled />
           <h2>Fichas</h2>
           <input type="number" name="" id="cie-total-fichas" disabled />
