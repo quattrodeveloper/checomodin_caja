@@ -5,8 +5,8 @@ import Header from '../components/Header';
 
 const Inicio = () => {
   return (
+    <><Header title="CAJA"/>
     <div className="Inicio">
-      <Header />
       <section className="app">
         <div className="resumen">
           <h2>Resumen</h2>
@@ -16,8 +16,7 @@ const Inicio = () => {
               type="number"
               name=""
               id="resumen_monto" placeholder="Monto Gs."
-              readonly disabled
-            />
+              readonly disabled />
           </div>
         </div>
         <div>
@@ -25,7 +24,7 @@ const Inicio = () => {
         </div>
       </section>
       <Navbar />
-    </div>
+    </div></>
   );
 };
 
