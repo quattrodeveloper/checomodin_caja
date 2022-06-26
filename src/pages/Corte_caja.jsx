@@ -6,7 +6,7 @@ import Header from '../components/Header';
 const CorteCaja = () => {
   return (
     <div className="Inicio">
-      <Header />
+      <Header title="CAJA"/>
       <section className="app">
         <h2>Corte de Caja</h2>
         <div className="corte_caja">

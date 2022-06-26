@@ -7,7 +7,7 @@ import Header from "../components/Header";
 const Cierre = () => {
   return (
     <>
-      <Header title="Cierre" />
+      <Header title="CIERRE DE CAJA" />
       <Montos />
 
       <div className="totales_align">

@@ -1,0 +1,56 @@
+@import 'vars';
+
+
+.container_llamar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.boton_stecnico {
+    background-color: #8CD840;
+    width: 290px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    color: black;
+}
+
+.boton_bomberos {
+    background-color: #FECA2E;
+    width: 290px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.boton_policia {
+    background-color: red;
+    width: 290px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 15px;
+}

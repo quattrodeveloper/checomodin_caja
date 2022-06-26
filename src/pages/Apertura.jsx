@@ -7,7 +7,7 @@ import Header from '../components/Header';
 const Apertura = () => {
     return (
         <>
-            <Header />
+            <Header title="APERTURA DE CAJA"/>
             <Montos />
             <div className='totales_align'>
                 <div className="totales">

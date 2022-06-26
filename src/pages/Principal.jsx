@@ -8,7 +8,7 @@ import iconCorte from "../assets/icons/corte.svg";
 const Principal = () => {
   return (
     <>
-      <Header />
+      <Header title="CAJA"/>
       <section className="app">
         <div id="resumen-ppal">
           <h2>Resumen</h2>
